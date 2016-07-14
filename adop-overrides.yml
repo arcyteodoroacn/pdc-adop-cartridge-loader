@@ -1,6 +1,6 @@
 # Contains Gitlab - will soon be modified to have a custom landing page
 proxy:
-  image: bzon/adop-nginx:0.3.0
+  image: arcyteodoroacn/adop-nginx
 
 # Override jenkins environment and image
 # The image has upgraded and new plugins
