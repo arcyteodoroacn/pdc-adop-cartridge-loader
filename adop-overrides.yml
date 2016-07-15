@@ -6,7 +6,7 @@ proxy:
 # The image has upgraded and new plugins
 jenkins:
   #image: bzon/centos-adop-jenkins:0.3.0
-  image: bzon/adop-jenkins:bzon-0.2
+  image: arcyteodoroacn/adop-jenkins
   environment:
     ROOT_URL: "${PROTO}://${PUBLIC_IP}/jenkins/"
     AWS_REGION: "${AWS_REGION}"
